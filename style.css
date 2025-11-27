@@ -1,0 +1,71 @@
+body {
+    background: #0d0d16; /* темний фіолетово-синій */
+    color: #e6e6ff; /* світлий м'який текст */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #1a1a2e; /* глибокий синьо-фіолетовий */
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #9d8cff; /* неонова пастельна фіолетова */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #131324;
+    padding: 12px 0;
+    gap: 30px;
+}
+
+nav a {
+    color: #b8b8ff; /* світло-фіолетовий */
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #7f5cff; /* яскравіший фіолетовий */
+}
+
+.block {
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #b48bff; /* приємний неон-фіолет */
+    text-align: center;
+}
+
+.films {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.film {
+    background: #1f1f35;
+    padding: 15px 25px;
+    border-radius: 14px;
+    font-size: 18px;
+    color: #e2d9ff;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(148, 118, 255, 0.3);
+}
+
+.film:hover {
+    background: #2a2a45;
+    box-shadow: 0 0 18px rgba(148, 118, 255, 0.5);
+}
+
+footer {
+    background: #131324;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    color: #8f8fff;
+}
